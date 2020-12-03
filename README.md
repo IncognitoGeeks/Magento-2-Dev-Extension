@@ -1,4 +1,4 @@
-# ### Magento2 Developer Extension
+# Magento2 Developer Extension
 
 Hi! This is a Chrome/ Firefox extension for Magento 2 developers. 
 
