@@ -5,7 +5,7 @@ Hi! This is a Chrome/ Firefox extension for Magento 2 developers.
 ## Installation
 
 First, install this Magento 2 module to enable the instrumentation 
-[By Clicking here!](https://github.com/IncognitoGeeks/Magento-2-Dev-Extension)
+[By Clicking here!](https://github.com/G-Arvind/Magento-Chrome-Extension/tree/develop/Mage_Module)
 
 
 Once installed and enabled, configure your local instance's BASE URL in the extension by clicking on the settings button in top left corner
