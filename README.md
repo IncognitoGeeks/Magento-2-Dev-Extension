@@ -5,7 +5,8 @@ Hi! This is a Chrome/ Firefox extension for Magento 2 developers.
 ## Installation
 
 First, install this Magento 2 module to enable the instrumentation 
-https://github.com/IncognitoGeeks/Magento-2-Dev-Extension
+[By Clicking here!](https://github.com/IncognitoGeeks/Magento-2-Dev-Extension)
+
 
 Once installed and enabled, configure your local instance's BASE URL in the extension by clicking on the settings button in top left corner
 
@@ -30,4 +31,6 @@ Once the extension is setup, the developer can perform following actions on the 
  - Initial Release
 
 ## Feedback
-https://docs.google.com/forms/d/e/1FAIpQLScy4YFGFdNUtaYKDWZIsGWZte_SFZVxXdpDeKhqf8RP_sE2fw/viewform
+
+[Submit feedback](https://docs.google.com/forms/d/e/1FAIpQLScy4YFGFdNUtaYKDWZIsGWZte_SFZVxXdpDeKhqf8RP_sE2fw/viewform)
+
