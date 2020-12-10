@@ -1,6 +1,6 @@
 {
   "name": "igeeks/m2-module-igeeks-browser-ext",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Magento 2 developer module for supporting browser extension",
   "type": "magento2-module",
   "require": {
