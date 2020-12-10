@@ -1,34 +1,45 @@
 # Magento2 Developer Extension
 
-Hi! This is a Chrome/ Firefox extension for Magento 2 developers. 
+This module is used to support the developer Browser extension for Magento 2.
+This module is installable via `Composer`.
 
 ## Installation
 
-First, install this Magento 2 module to enable the instrumentation 
-[By Clicking here!](https://github.com/G-Arvind/Magento-Chrome-Extension/tree/develop/Mage_Module)
+### Add repository
 
+```
+"repositories": {
+        "BrowserExt": {
+            "type": "vcs",
+            "url": "git@github.com:IncognitoGeeks/m2-module-igeeks-browser-ext.git"
+        }
+    }
+```
 
-Once installed and enabled, configure your local instance's BASE URL in the extension by clicking on the settings button in top left corner
+### adding to dev dependencies in composer.json
 
-Check the connection status in extension after URL is entered.
+```json
+    "require-dev": {
+        "igeeks/m2-module-igeeks-browser-ext": "dev-master"
+    }
+```
 
-![alt text](https://github.com/G-Arvind/Magento-Chrome-Extension/blob/develop/Chrome_Ext/screen_shots/chrome_ext_settings.png "Settings")
-![alt text](https://github.com/G-Arvind/Magento-Chrome-Extension/blob/develop/Chrome_Ext/screen_shots/chrome_ext_url.png "Url")
-![alt text](https://github.com/G-Arvind/Magento-Chrome-Extension/blob/develop/Chrome_Ext/screen_shots/chrome_ext_status.png "Connection")
+### Install the module
 
+``composer require igeeks/m2-module-igeeks-browser-ext``
 
-## Features
+## Using the module
 
-Once the extension is setup, the developer can perform following actions on the go
+This module will enable developers to execute magento commands from browser
 
- - Clear Magento Cache
- - Flush Magento Cache
- - Reindex
- - Enable Template Path hints
- - Clear Browser Cache
-## Release Notes
-#### version 0.0.1
- - Initial Release
+```
+bin/magento module:enable IncognitoGeeks_BrowserExt
+bin/magento setup:upgrade
+```
+
+##Usage
+
+Use this by installing chrome/Firefox extension [By Clicking here!](https://github.com/IncognitoGeeks/m2-dev-browser-ext)
 
 ## Feedback
 
