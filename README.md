@@ -20,7 +20,7 @@ This module is installable via `Composer`.
 
 ```json
     "require-dev": {
-        "igeeks/m2-module-igeeks-browser-ext": "dev-master"
+            composer require igeeks/m2-module-igeeks-browser-ext:dev-master --dev
     }
 ```
 
