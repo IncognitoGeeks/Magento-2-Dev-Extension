@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="standard">
-        <route frontName="chromeext" id="chromeext">
-            <module name="IncognitoGeeks_ChromeExt"/>
+        <route frontName="browserext" id="browserext">
+            <module name="IncognitoGeeks_BrowserExt"/>
         </route>
     </router>
 </config>
