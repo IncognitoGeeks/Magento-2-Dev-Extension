@@ -16,17 +16,9 @@ This module is installable via `Composer`.
     }
 ```
 
-### adding to dev dependencies in composer.json
-
-```json
-    "require-dev": {
-            composer require igeeks/m2-module-igeeks-browser-ext:dev-master --dev
-    }
-```
-
 ### Install the module
 
-``composer require igeeks/m2-module-igeeks-browser-ext``
+``composer require igeeks/m2-module-igeeks-browser-ext:dev-master --dev``
 
 ## Using the module
 
