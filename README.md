@@ -29,9 +29,13 @@ bin/magento module:enable IncognitoGeeks_BrowserExt
 bin/magento setup:upgrade
 ```
 
-##Usage
+## Usage
 
 Use this by installing chrome/Firefox extension [By Clicking here!](https://github.com/IncognitoGeeks/m2-dev-browser-ext)
+
+## Note
+
+This module is meant for developers, do not use this module in higher environment.
 
 ## Feedback
 
